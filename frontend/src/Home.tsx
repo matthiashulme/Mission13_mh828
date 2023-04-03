@@ -4,12 +4,12 @@ import React from 'react';
 function Home(props: any) {
   return (
     <>
-      <div className="align-center">
+      <div className="text-center">
         <div>
           <h1>{props.saying}</h1>
         </div>
 
-        <div>
+        <div className="align-items-center">
           <img src="./JoelHiltonHeadshot.jpg" />
         </div>
       </div>

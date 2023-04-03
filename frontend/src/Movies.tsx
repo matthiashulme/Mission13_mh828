@@ -11,11 +11,11 @@ function MovieList() {
     <>
       <div>
         {/* Table Set Up */}
-        <table className="Table">
+        <table className="table">
           {/* Table Header */}
           <thead>
             <tr>
-              <th className="col-3">Title</th>
+              <th>Title</th>
               <th>Year</th>
               <th>Director</th>
               <th>Rating</th>
