@@ -28,7 +28,7 @@ namespace Mission14_mh828.Controllers
         {
             var x = context.Movies
                 .Where(m => m.Edited == "Yes")
-                .OrderBy(m => m.Category)
+                .OrderBy(m => m.Title)
                 .ToArray();
 
             return x;
